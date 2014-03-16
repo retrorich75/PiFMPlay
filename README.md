@@ -78,8 +78,10 @@ To control pifmplay from the same terminal, run pifm in the background:
 
 Check if there is an update to pifm here: 
 [icrobotics.co.uk](http://www.icrobotics.co.uk/wiki/index.php/Turning_the_Raspberry_Pi_Into_an_FM_Transmitter)
+
 Current version now offers stereo link is here (http://omattos.com/pifm.tar.gz)
-####Things I would like to see pifmplay do in the future:
+
+####Wishes for the future versions of pifmplay:
 - Redirect all sound output to pifmplay (redirect all alsa sound output).
 - Youtube stream (might be possible with [youtube-dl](http://www.raspberrypi.org/phpBB3/viewtopic.php?p=97710))
 - di.fm/soundcloud/spotify/pandora streaming
