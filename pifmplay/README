@@ -7,4 +7,4 @@ will take almost all of the CPU).
 
 The wav is 192kHz so, call it like this if you want
 to listen on 100 MHz
-	sudo ./pifm sound.wav 100 192000
+	sudo ./pifm left_right.wav 100 22050 stereo
