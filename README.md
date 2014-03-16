@@ -6,8 +6,10 @@ PiFMPlay makes it easier to play music and control your FM-Broadcast.
 
 PiFM is written by [Icrobotics](http://www.icrobotics.co.uk/wiki/index.php)
 
-PiFMPlay is written by Mikael Jakhelln. (This fork by Richard Parslow)
+PiFMPlay is written by Mikael Jakhelln.
 "It's not pretty, but it works."
+
+This fork by Richard Parslow.
 
 ##How to use it:
 
@@ -15,17 +17,23 @@ First directly on your Pi or via ssh
 
 Create a local directory in your home folder:
 >mkdir pifm
+
 Change to that directory:
 >cd pifm
+
 Get the latest version of pifm:
 >wget http://omattos.com/pifm.tar.gz
+
 Unpack the archive:
 >tar -xvf pifm.tar.gz
+
 Make pifm an executable:
 >sudo chmod +x pifm
-save pifmplay to your pi (same folder as pifm e.g /home/pi/pifm).
+
+Save pifmplay to your pi (same folder as pifm e.g /home/pi/pifm).
 Allow pifmplay an executable:
 >sudo chmod +x pifmplay
+
 Install sox and ffmpeg:
 >sudo apt-get install ffmpeg sox libsox-fmt-all 
 
